@@ -5,6 +5,9 @@ body {
     color: #9eecff;
     padding: 20px;
 }
+.profile-img {
+    vertical-align: middle;
+}
 
 .custom-link {
     color: #007BFF;
