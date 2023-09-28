@@ -4,11 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <title>Hobby</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+        img {
+            border-radius: 8px;
+            border: 4px solid #9eecff;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,31 +28,76 @@
         <p>
             <a href="./index.html"><button class="btn custom-btn">Voltar ao início</button></a>
         </p>
+
+        <div class="container mt-5">
+            <h2></h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>                
+                </ul>
+        
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2>Calistenia</h2>
+                        <img src="./imgs/img_1.jpg" class="d-block w-100" " alt="Um homem praticando calistenia">
+                        <div class="carousel-caption">
+                            <h3>"O corpo alcança o que a mente acredita."</h3>
+                            <p>- Muhammad Ali</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h2>Ler</h2>
+                        <img src="./imgs/img_3.jpg" class="d-block w-100" alt="Um homem lendo um livro">
+                        <div class="carousel-caption">
+                            <h3>"Um quarto sem livros é como um corpo sem alma."</h3>
+                            <p>- Marcus Tullius Cicero</p>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <h2>Caminhar</h2>
+                        <img src="./imgs/img_4.jpg" class="d-block w-100" alt="Um homem praticando caminhada">
+                        <div class="carousel-caption">
+                            <h3>"Domine seu corpo, e você dominará seu destino."</h3>
+                            <p>- Napoleon Hill</p>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <h2>Programação</h2>
+                        <img src="./imgs/img_2.jpg" class="d-block w-100" alt="Um homem programando">
+                        <div class="carousel-caption">
+                            <h3>"A ciência da computação é uma disciplina que surgiu da matemática; é a gestão de algoritmos!"</h3>
+                            <p>- Edsger Dijkstra</p>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <h2>Basquete</h2>
+                        <img src="./imgs/img_5.jpg" class="d-block w-100" alt="Uma pessoa jogando basquete">
+                        <div class="carousel-caption">
+                            <h3>"Não importa o quão talentoso você seja, talento é dado. A fama é dada. O reconhecimento é dado. Mas o respeito é conquistado."</h3>
+                            <p>- Michael Jordan</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Controles de Navegação do Carrossel -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
     </div>
-    <h3>Calistenia</h3>
-    <img style="border-radius: 8px; width: 500px; text-align: center;"
-        src="https://www.hipertrofia.org/blog/wp-content/uploads/2018/04/calistenia.jpg"
-        alt="Um homem praticando calistenia">
-    <br><br>
-    <h3>Ler</h3>
-    <img style="border-radius:  8px; width: 500px; text-align: center;"
-        src="https://www.maisaprendizagem.com.br/wp-content/uploads/2019/03/homem-lendo-mesa-livros.jpg"
-        alt="Um homem lendo um livro">
-    <br><br>
-    <h3>Caminhar</h3>
-    <img style="border-radius:  8px; width: 500px; text-align: center;"
-        src="https://www.smartfit.com.br/news/wp-content/uploads/2022/05/Caminhar-10-minutos-pode-garantir-uma-vida-mais-longa-800x533.jpg"
-        alt="Homem caminhando">
-    <br><br>
-    <h3>Programar</h3>
-    <img style="border-radius:  8px; width: 500px; text-align: center;"
-        src="https://blog.eseg.edu.br/wp-content/uploads/2021/12/como-e-trabalhar-com-programacao.png"
-        alt="Uma pessoa programando">
-    <br><br>
-    <h3>Basquete</h3>
-    <img style="border-radius:  8px; width: 500px; text-align: center;"
-        src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/3e6dfa60-2bb9-4444-9da6-22bdabdcbda4/nike-basquetebol.png"
-        alt="Um homem jogando basquete">
+   
 </body>
 
 </html>

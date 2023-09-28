@@ -1,8 +1,8 @@
 /* Estilos para o contêiner da barra de busca */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1b26;
-    color: #9eecff;
+    background-color: #011126;
+    color: #fff;
     padding: 20px;
 }
 .profile-img {
@@ -30,25 +30,26 @@ body {
 }
 
 .custom-btn {
-    background-color: rgb(155, 120, 252);
+    background-color: #08678C;
     /* Initial background color */
     color: #9eecff;
     /* Text color */
-    border: 1px solid #895eff;
+    border: 1px solid #08678C;
     /* Initial border */
 }
 
 .custom-btn:focus,
 .custom-btn:active,
 .custom-btn:hover {
-    background-color: #895eff;
+    background-color: #074973;
     /* New background color on click, focus, or hover */
-    color: #9eecff;
+    color: #fff;
     /* New text color on click, focus, or hover */
-    border: 1px solid #895eff;
+    border: 1px solid #074973;
     /* New border on click, focus, or hover */
 }
 
 .jumbotron {
-    background-color: #1e1f30;
+    border-radius: 10px;
+    background-color: #011C40;
 }
