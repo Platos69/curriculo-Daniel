@@ -5,6 +5,7 @@ body {
     color: #fff;
     padding: 20px;
 }
+
 .profile-img {
     vertical-align: middle;
 }
@@ -54,9 +55,8 @@ body {
     background-color: #011C40;
 }
 
-
 @media screen and (max-width: 520px) {
     .carousel-caption {
-      display: none;
+        display: none;
     }
-  } 
+}
